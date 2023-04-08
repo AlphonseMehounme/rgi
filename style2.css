@@ -1,6 +1,5 @@
- #section-df47963f
- { 
-background: repeating-linear-gradient(
+ #section-df47963f{ 
+  background: repeating-linear-gradient(
   to right,
   #202032,
   #202032 2px,
@@ -8,13 +7,10 @@ background: repeating-linear-gradient(
   #00002F 200px
 );
 
-
-clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
-   
- }
- #section-59d0f600
- { 
-background: repeating-linear-gradient(
+ clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+}
+#section-59d0f600{ 
+  background: repeating-linear-gradient(
   to right,
   #202032,
   #202032 2px,
