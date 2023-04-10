@@ -1,76 +1,69 @@
  #section-df47963f{ 
   background: repeating-linear-gradient(
-  to right,
-  #202032,
-  #202032 2px,
-  #00002F 0px,
-  #00002F 200px
-);
+    to right,
+    #202032,
+    #202032 2px,
+    #00002F 0px,
+    #00002F 200px
+  );
 
  clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
 }
+
 #section-59d0f600{ 
   background: repeating-linear-gradient(
-  to right,
-  #202032,
-  #202032 2px,
-  #00002F 0px,
-  #00002F 200px
-);
+    to right,
+    #202032,
+    #202032 2px,
+    #00002F 0px,
+    #00002F 200px
+  );
+  clip-path: polygon(100% 0, 100% 0, 100% 92%, 0 100%, 0 8%);
+}
 
-
-clip-path: polygon(100% 0, 100% 0, 100% 92%, 0 100%, 0 8%);
-   
- }
-
-
- 
 #image-e4162689 {
-animation: rotate-center 30s linear infinite both;
+  animation: rotate-center 30s linear infinite both;
 }
 
 @keyframes rotate-center {
-0% {
-transform: rotate(0);
-}
-100% {
-transform: rotate(360deg);
-}
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-#headline-6e0c4cae, #headline-a486c07e
-{position:relative;z-index:10;}
+#headline-6e0c4cae, #headline-a486c07e{
+  position:relative;
+  z-index:10;
+}
 
-#headline-3e9795f5,#headline-f7997b1f
-{
+#headline-3e9795f5,#headline-f7997b1f{
   position:relative;z-index:8;
 
-animation: slide-left 15s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+  animation: slide-left 15s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
 }
 
 @keyframes slide-left {
-0% {
-transform: translateX(-300);
-}
-100% {
-transform: translateX(-300px);
-}
-}
-
-
-
-#headline-981ac67c,#headline-51a3780f
- {position:relative;z-index:8;
-  
+  0% {
+    transform: translateX(-300);
+  }
+  100% {
+    transform: translateX(-300px);
+  }
 }
 
-
+#headline-981ac67c,#headline-51a3780f{
+  position:relative;z-index:8;
+}
 
 #image-2db2fdcf{
-transform: scale(1);
-transition: .5s ease-in-out;
+  transform: scale(1);
+  transition: .5s ease-in-out;
 }
 
 #image-2db2fdcf:hover {
-transform: scale(1.04);
+  transform: scale(1.04);
 }
